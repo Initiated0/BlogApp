@@ -1,0 +1,23 @@
+VIRTUAL ENVIRONMENT
+
+1. pip install virtualenv (if you don't have virtualenv)
+2. virtualenv mypython (your python env name = mypython)
+3. mypython\Scripts\activate (activate your environment)
+4. deactivate 
+
+
+src is the root folder
+
+Running the server: 
+(mypython) C:\Users\User\dev\trydjango\mypython\src>python manage.py runserver
+
+(mypython) C:\Users\User\dev\trydjango\mypython\src>python manage.py migrate
+
+Superuser:
+user : nayeem
+password : python123
+
+>>> python manage.py makemigrations (after changes)
+>>> python manage.py migrate
+
+python manage.py shell
